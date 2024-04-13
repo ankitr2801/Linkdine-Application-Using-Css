@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkdin project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-right">
+            <a href="profile.html" class="logo"><img src="images/logo.png"></a>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search companies and jobs">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house"></i></a><span>Home</span></li>
+                <li><a href="#"><i class="fa-solid fa-user-group"></i></a><span>My Networks</span></li>
+                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a><span>Jobs</span></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i></a><span>Notification</span></li>
+                <li><a href="#"><i class="fa-solid fa-message"></i></a><span>Messaging</span></li>
+                <div class="me">
+                    <i class="fa-solid fa-user-group"></i>
+                    <div class="down">
+                        <h6>Me</h6>
+                        <a href="#"><i class="fa-solid fa-caret-down"></i></a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="navbar-left">
+            <div class="work">
+                <i class="fa-solid fa-braille"></i>
+                <div class="down">
+                    <h4>for business</h4>
+                    <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                  </div>
+                <div class="premium">
+                    <a href="#">try premium for 
+                        free</a>
+                </div>
+                <div class="online">
+                    <img src="images/user-1.png" onclick ="toggleMenu()">
+                </div>
+        </div>
+        <!-- ----------------------profile drop-down menu--------- -->
+       <div class="profile-menu-wrap" id="profile-menu">
+        <div class="profile-menu">
+            <div class="user-info">
+              <img  src="images/user-1.png">
+              <div>
+                <h3>Ankit Rajput</h3>
+                <a href="#">See your profile</a>
+              </div>
+            </div>
+            <hr>
+            <a href="#" class="profile-menu-link"><img src="images/feedback.png">
+        <p>Give Feedback</p>
+        <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link"><img src="images/setting.png">
+            <p>setting and privacy</p>
+            <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link"><img src="images/help.png">
+                <p>Help & support </p>
+                <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link"><img src="images/display.png">
+                    <p>Display and Accessibility</p>
+                    <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link"><img src="images/logout.png">
+                        <p>Logout</p>
+                        <span>></span>
+                        </a>
+        </div>
+       </div>
+
+    </nav>
+    <!-- ---------------------end navbar----------------- -->
+
+    <!-- -------------------------- left sidebar -------- -->
+<div class="container">
+   <div class="sidebar">
+     <div class="sidebar-section">
+        <div class="image-cover">
+            <img src="images/cover-pic.png" width="100%">
+        </div>
+        <div class="profile-info"> 
+            <a href="profile.html"><img src="images/user-1.png"></a>
+        </div>
+        <div class="progfile-section-info">
+            <h3>Ankit Rajput</h3>
+            <p>Full Stack web Developer and Designer</p>
+            <hr id="view">
+            <div class="view">
+               <div class="views">
+                 <a href="#"> who viewed of your Profile</a>
+                 <a href="#" class="color-view">763</a>
+               </div>
+               <div class="views">
+               <a href="#">Impression of your post</a>
+               <a href="#" class="color-view">35</a>
+               </div>
+               <div class="views">
+               <a href="#"> meet your connection</a>
+               <a href="#" class="color-view">255</a>
+               </div>
+            </div>
+            <hr id="Premium">
+        <div class="premium">
+            <a href="#">Access exclusive tools and insights</a>
+            <a href="#" class="color-view">Try premium for free</a>
+        </div>     
+        <hr id="item">
+        <div class="bookmark">
+            <i class="fa-solid fa-bookmark"></i>
+            <a href="#">My item</a>
+        </div>
+     </div>
+    </div>
+     <div class="recent-section">
+        <div class="recent">
+            <a href="#"><h3 class="color-view">Recent</a></h3>
+            <ul>
+            <li ><a href="#">  <i class="fa-solid fa-bookmark"></i> online learning course </a></li>
+            <li ><a href="#">  <i class="fa-solid fa-bookmark"></i> Web development and Designer </a></li>
+            <li ><a href="#">  <i class="fa-solid fa-bookmark"></i> DSA full course learing in free</a></li>
+            <li ><a href="#">  <i class="fa-solid fa-bookmark"></i> amanzone prime stock avaliable </a></li>
+            <li ><a href="#">  <i class="fa-solid fa-bookmark"></i> flipkart product in discount</a></li>
+            <li ><a href="#">  <i class="fa-solid fa-bookmark"></i>  vacancy is available </a></li>
+            <li ><a href="#">  <i class="fa-solid fa-bookmark"></i> learn and read all stock course</a></li>
+            </ul>
+            <a href="#"><h3 class="color-view">Group</a></h3>
+            <ul>
+            <li ><a href="#">  <i class="fa-solid fa-hashtag"></i> online learning course </a></li>
+            <li ><a href="#">  <i class="fa-solid fa-hashtag"></i> Web development and Designer </a></li>
+            <li ><a href="#">  <i class="fa-solid fa-hashtag"></i> DSA full course learing in free</a></li>
+            <li ><a href="#">  <i class="fa-solid fa-hashtag"></i> amanzone prime stock avaliable </a></li>
+            <li ><a href="#">  <i class="fa-solid fa-hashtag"></i> flipkart product in discount</a></li>
+            <li ><a href="#">  <i class="fa-solid fa-hashtag"></i>  vacancy is available </a></li>
+            <li ><a href="#">  <i class="fa-solid fa-hashtag"></i> learn and read all stock course</a></li>
+            </ul>
+    </div>
+    <div class="show-more">
+        <a href="#">Show More</a>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+        <div class="event">
+            <li><a href="#">Events</a></li>
+            <i class="fa-solid fa-plus"></i>
+        </div>
+    </div>
+  </div>
+  
+<!-- --------------end leftsidebar ---------- -->
+ <!-------------------------------- start main content ---------->
+ <div class="main-content">
+     <div class="create-post">
+        <div class="create-post-input">
+      <a href="#"><img src="images/user-1.png" alt="profile"></a>
+     <textarea rows="2" placeholder="write a post"></textarea>
+       </div>
+     <div class="post-section">
+        <div class="section-container">
+            <a href="#"><i class="fa-solid fa-image"></i></a>
+                <a href="#"><span>Media</span></a>
+        </div>
+        <div class="section-container">
+            <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+                <a href="#"><span>Event</span></a>
+        </div>
+         <div class="section-container">
+            <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+                <a href="#"> <span>write a Article</span></a>
+        </div>
+     </div>
+   </div> 
+   <div class="sort-by">
+    <hr>
+    <p>sort by : <span>Top<i class="fa-solid fa-caret-down"></i></span></p>
+   </div>
+
+   <!-- =------post section----- -->
+     <div class="share-section-top">
+            <div class="share">
+            <img src="images/image-coding.jpg">
+                <div class="post-name">
+                    <a href="#"><span>Coding club</span></a>
+                        <a href="#"><small>667,666,70 followers</small></a>
+                            <a href="#"><small>11h .<i class="fa-solid fa-earth-americas"></i></small></a>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus temporibus fuga officia dolor assumenda vel repellat reprehenderit et illo odio beatae quasi maxime, aperiam voluptate sequi ut rem nisi provident debitis quisquam fugiat consequuntur iusto maiores! Repellendus eligendi quaerat iusto deleniti exercitationem porro placeat, aut eveniet ipsamanimi omnis? Laudantium aliquam cupiditate, </p>
+            <a href="#"><p class="hashtag">#codingclub #hiring #Samsung #Capgemini #Philips #internship #placement #Google #dsa #codingmafia #SoftwareDeveloper #FrontendDeveloper #job #update #learninspiregrow</p></a>
+            <img src="images/coding-image.jpg" width="100%">
+            <div class="post-activity">
+                <div class="liked-section">
+                    <a href="#"><img  class="liked" src="images/thumbsup.png"></a>
+                        <a href="#"><img  class="liked" src="images/love.png"></a>
+                            <a href="#"><img  class="liked" src="images/clap.png"></a>
+                    <a href="#"><span>556</span></a>
+                </div>
+                <div class="comment-section">
+                    <a href="#"><small>555comment .</small></a>
+                        <a href="#"><small>55 share</small></a>
+                </div>
+            </div>
+               <div class="post-stats">
+                <div class="link-acctivity">
+                <li><a href="#"><i class="fa-solid fa-thumbs-up"></i></a>Like</li>
+                </div>
+                <div class="link-acctivity">
+                <li><a href="#"><i class="fa-solid fa-comment"></i></a>Comment</li>
+                </div>
+                <div class="link-acctivity">
+                <li><a href="#"><i class="fa-solid fa-share"></i></a>Share</li>
+                </div>
+           </div>
+           </div>
+           <div class="share-section-top">
+           <div class="share">
+            <img src="images/car.mech.jpg">
+                <div class="post-name">
+                    <a href="#"><span>Mechanical Enigeering Design Hub</span></a>
+                <a href="#"><small>355,737,70 followers</small></a>
+                    <a href="#"> <small>1day ago .<i class="fa-solid fa-earth-americas"></i></small>
+                </div>
+            </div>
+            <p>We are hiring for Design Engineer .Jobs , training and knowledge for Mechanical Engineers </p></a>
+            <img src="images/mech.jpg" width="100%">
+            <div class="post-activity">
+                <div class="liked-section">
+                    <a href="#"><img  class="liked" src="images/thumbsup.png"></a>
+                        <a href="#"><img  class="liked" src="images/love.png"></a>
+                            <a href="#"><img  class="liked" src="images/clap.png"></a>
+                                <a href="#"><span>556</span></a>
+                </div>
+                <div class="comment-section">
+                    <a href="#"> <small>7673comment .</small></a>
+                    <a href="#"><small>12 share</small></a>
+                </div>
+            </div>
+           <div class="post-stats">
+                <div class="link-acctivity">
+                <li><a href="#"><i class="fa-solid fa-thumbs-up"></i></a>Like</li>
+                </div>
+                <div class="link-acctivity">
+                <li><a href="#"><i class="fa-solid fa-comment"></i></a>Comment</li>
+                </div>
+                <div class="link-acctivity">
+                <li><a href="#"><i class="fa-solid fa-share"></i></a>Share</li>
+                </div>
+           </div>
+        </div>
+        <div class="share-section-top">
+            <div class="share">
+             <img src="images/user-2.png">
+                 <div class="post-name">
+                    <a href="#"> <span>Mechanical Enigeering Design Hub</span></a>
+                    <a href="#"> <small>Hainn tech india pvt.ltd</small></a>
+                    <a href="#"><small>2h .<i class="fa-solid fa-earth-americas"></i></small></a>
+                 </div>
+             </div>
+             <p>Hello everyone</p>
+             <p>Walk in 16 september 2023 <a href="#"><span class="see-more">...see more</span></a></p>
+             <img src="images/walk.jpg" width="100%">
+             <div class="post-activity">
+                 <div class="liked-section">
+                    <a href="#"> <img  class="liked" src="images/thumbsup.png"></a>
+                        <a href="#"><img  class="liked" src="images/love.png"></a>
+                            <a href="#">  <img  class="liked" src="images/clap.png"></a>
+                     <a href="#"> <span>Ankit rajput more 556 other</span></a>
+                 </div>
+                 <div class="comment-section">
+                    <a href="#"><small>3873comment .</small></a>
+                     <a href="#"><small>12 share</small></a>
+                 </div>
+             </div>
+            <div class="post-stats">
+                 <div class="link-acctivity">
+                 <li><a href="#"><i class="fa-solid fa-thumbs-up"></i></a>Like</li>
+                 </div>
+                 <div class="link-acctivity">
+                 <li><a href="#"><i class="fa-solid fa-comment"></i></a>Comment</li>
+                 </div>
+                 <div class="link-acctivity">
+                 <li><a href="#"><i class="fa-solid fa-share"></i></a>Share</li>
+                 </div>
+            </div>
+         </div>
+         <div class="share-section-top">
+            <div class="share">
+                <a href="#"><img src="images/nandini.jpg"></a>
+                 <div class="post-name">
+                    <a href="#"><span>Nandini Tyagi (she/Her) . Following</span></a>
+                 <a href="#"> <small>160k+Follower|HR Specialist|MBA in HR</small></a>
+                 <a href="#"> <small>1week ago .<i class="fa-solid fa-earth-americas"></i></small></a>
+                 </div>
+             </div>
+             <p>We are Hiring for Below given position</p>
+             <p>Experience 0-10 Years </p>
+             <p>50 Above Opening <a href="#"><span class="see-more">...see more</span></a> </p>
+             <img src="images/post-image-3.png" width="100%">
+             <div class="post-activity">
+                 <div class="liked-section">
+                     <img  class="liked" src="images/thumbsup.png">
+                     <img  class="liked" src="images/love.png">
+                     <img  class="liked" src="images/clap.png">
+                     <a href="#"> <span>Manish rajput more 7636 other</span></a>
+                 </div>
+                 <div class="comment-section">
+                    <a href="#"><small>63comment .</small></a>
+                     <a href="#"><small>2 share</small></a>
+                 </div>
+             </div>
+            <div class="post-stats">
+                 <div class="link-acctivity">
+                 <li><a href="#"><i class="fa-solid fa-thumbs-up"></i></a>Like</li>
+                 </div>
+                 <div class="link-acctivity">
+                 <li><a href="#"><i class="fa-solid fa-comment"></i></a>Comment</li>
+                 </div>
+                 <div class="link-acctivity">
+                 <li><a href="#"><i class="fa-solid fa-share"></i></a>Share</li>
+                 </div>
+            </div>
+        </div>
+
+</div>
+    <!-- --------------------------------rightsidebar------ -->
+<div class="rightbar">
+    <div class="news-section">
+        <h3>Linkdin News and Trending</h3>
+        <ul>
+            <li><a href="#">Households spending surges</a></li>
+            <p>19h ago . 35665 reader</p>
+            <li><a href="#">chandryan-3 has been landed sucessfully</a></li>
+            <p>13h ago . 87677reader</p>
+            <li><a href="#">G20 summit are about come in india</a></li>
+            <p>1day ago . 3676 reader</p>
+            <li><a href="#"></a>ramerica presidents are about to come in india</li>
+            <p>3day ago . 333 reader</p>
+            <li><a href="#">PM are thinking for change india to bharat</a></li>
+            <p>1week ago . 33367 reader</p>
+            <li><a href="#">Households spending surges</a></li>
+            <p>1month ago . 33673 reader</p>
+        </ul>
+        <div class="show-button">
+            <a href="#">Show More</a>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+    </div>
+    <div class="key-section">
+        <div class="Ad">
+        <p>Ad</p>
+        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+        </div>
+        <h3>Ankit unlock your full potential with Linkdin premium</h3>
+        <div class="image-container">
+           <a href="#" ><img src="images/user-1.png" class="image"></a>
+            <a href="#"><img src="images/key.jpg"  alt="linkdin premium" class="key-img"></a>
+        </div>
+        <a href="#"><h3 class="view-profile">See who's viewed Your profile in last 90 days</h3></a>
+        <a href="#"><p class=" try-premium"> Try for free </p></a>
+    </div>
+    <div class="footer-section">
+        <div class="footer">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#"> Privacy & term <i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="#">Add choice </a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business Service<i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="#">Get the Linkdin app</a></li>
+            <li><a href="#">More info</a></li>
+        </ul>
+      </div>
+      <div class="copyright-section">
+        <div class="copyright">
+        <h4>Linked</h4>
+        <img src="images/logo.png">
+        <p>Linkedin corporation All rights 2023</p>
+        </div>
+      </div>
+    </div>
+ <div>
+<!-- -----------------end rightbar----------- -->
+ </div> 
+
+
+<script>
+
+let profileMenu = document.getElementById("profileMenu");
+
+function toggleMenu(){
+    profileMenu.classList.toggle("open-menu");
+}
+</script>
+
+
+
+</body>
+</html>
